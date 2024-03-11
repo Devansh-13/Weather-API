@@ -10536,7 +10536,8 @@ function createCellIcon(trow,text,type){
         img.src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather07-1024.png";
     }
     cell.style="border:1px  solid black; padding:5px ;text-align:center;";
-    img.style="height:40px";
+    // img.style="height:40px";
+    img.setAttribute('class','icon');
     cell.appendChild(img);
     trow.appendChild(cell);
 
